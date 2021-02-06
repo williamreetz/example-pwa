@@ -1,8 +1,7 @@
 const assets = [
-    '/',
-    '/images/icons/icon-72x72.png',
-    '/images/icons/icon-96x96.png',
-    '/index.html',
+    'images/icons/icon-72x72.png',
+    'images/icons/icon-96x96.png',
+    'index.html',
 ]
 
 self.addEventListener('install', installEvent => {
