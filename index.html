@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="shortcut icon" href="/images/icons/icon-72x72.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/icons/icon-72x72.png" type="image/x-icon" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,7 +14,7 @@
   <body>
     <div id="example-pwa">
       <div class="box">
-        <img src="/images/icons/icon-96x96.png" alt="example pwa" />
+        <img src="images/icons/icon-96x96.png" alt="example pwa" />
         <p>Example PWA</p>
       </div>
     </div>
@@ -22,7 +22,7 @@
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', function () {
           navigator.serviceWorker
-            .register('/serviceWorker.js')
+            .register('serviceWorker.js')
             .then((res) => console.log('service worker registered'))
             .catch((err) => console.log('service worker not registered', err))
         })
