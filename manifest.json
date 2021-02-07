@@ -5,7 +5,7 @@
   "background_color": "#fff",
   "display": "fullscreen",
   "scope": "/",
-  "start_url": ".",
+  "start_url": "/example-pwa",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
