@@ -4,8 +4,8 @@
   "theme_color": "#000",
   "background_color": "#fff",
   "display": "fullscreen",
-  "scope": "/",
-  "start_url": "/example-pwa",
+  "start_url": "./",
+  "scope": ".",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
